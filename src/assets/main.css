@@ -1,0 +1,30 @@
+@import './base.css';
+
+#flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+header {
+  width: 100%;
+  height: 10em;
+  text-align: left;
+  padding-left: 20%;
+}
+
+nav.column-1 {
+  width: 15%;
+}
+
+div.column-2 {
+  width: 5%;
+}
+
+main.column-3 {
+  width: 80%;
+}
+
+footer {
+  width:100%;
+  text-align: center;
+}
